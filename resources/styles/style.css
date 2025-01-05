@@ -7,7 +7,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: #ff0000 solid 1px;
 }
 
 body {
@@ -36,7 +35,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
+    margin-right: 10px;
 }
 
 nav ul {
@@ -61,14 +60,148 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('resources/images/img-mission-background.jpg');
+    margin: 0 auto;
+    background-image: url('../images/img-mission-background.jpg');
 }
 
 .hero-text {
     background-color: black;
     text-align: center;
+    width: 100%;
 }
 
-.hero-text h2 {
+.hero-text h2, h4 {
+    margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.tea-of-the-month h4 {
+    margin-bottom: 20px;
+}
+
+.tea-of-the-month {
+    width: 1000px;
+    margin: 40px auto;
+}
+
+.featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.featured-single {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px 60px 10px;
+    position: relative;
+}
+
+.featured-title {
+    position: absolute;
+    bottom: -40px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.featured-title h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.locations {
+    margin: 20px auto;
+    background-image: url("../images/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.locations-title {
+    margin: 0;
+}
+
+.locations.h2 {
+    margin: 0;
+}
+
+.dark-column-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.dark-column {
+    width: 300px;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.footer-content {
+    text-align: center;
+    height: 200px;
+}
+
+.footer-content h2 {
+    margin-top: 20px;
+}
+
+.footer-content h5 {
+    margin-top: 30px;
+}
+
+.footer-content p {
+    margin-top: 20px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Assigning image background to each featured tea */
+#fall.featured-single {
+    background-image: url('../images/img-berryblitz.jpg');
+    background-size: cover;
+}
+#spiced.featured-single {
+    background-image: url('../images/img-spiced-rum.jpg');
+    background-size: cover;
+}
+#seasonal.featured-single {
+    background-image: url('../images/img-donut.jpg');
+    background-size: cover;
+}
+#myrtle.featured-single {
+    background-image: url('../images/img-donut.jpg');
+    background-size: cover;
+}
+#bedford.featured-single {
+    background-image: url('../images/img-bedford-bizarre.jpg');
+    background-size: cover;
+}
+.featured-title {
+    margin: 0;
+}
+
+footer {
+    align-content: center;
+    align-items: center;
 }
