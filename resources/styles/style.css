@@ -1,3 +1,4 @@
+/* Resetting the default styles */
 *,
 *::before,
 *::after{
@@ -54,6 +55,8 @@ nav a {
     color: seashell;
 }
 
+/* Hero section */
+
 .hero {
     height: 700px;
     width: 1200px;
@@ -84,6 +87,8 @@ nav a {
     margin: 40px auto;
 }
 
+/* Featured teas section */
+
 .featured {
     display: flex;
     justify-content: center;
@@ -112,6 +117,33 @@ nav a {
     margin: 0;
     padding: 0;
 }
+
+/* Assigning image background to each featured tea */
+#fall.featured-single {
+    background-image: url('../images/img-berryblitz.jpg');
+    background-size: cover;
+}
+#spiced.featured-single {
+    background-image: url('../images/img-spiced-rum.jpg');
+    background-size: cover;
+}
+#seasonal.featured-single {
+    background-image: url('../images/img-donut.jpg');
+    background-size: cover;
+}
+#myrtle.featured-single {
+    background-image: url('../images/img-donut.jpg');
+    background-size: cover;
+}
+#bedford.featured-single {
+    background-image: url('../images/img-bedford-bizarre.jpg');
+    background-size: cover;
+}
+.featured-title {
+    margin: 0;
+}
+
+/* Locations section */
 
 .locations {
     margin: 20px auto;
@@ -152,6 +184,8 @@ nav a {
     line-height: 2.5;
 }
 
+/* Footer section */
+
 .footer-content {
     text-align: center;
     height: 200px;
@@ -174,31 +208,6 @@ nav a {
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-/* Assigning image background to each featured tea */
-#fall.featured-single {
-    background-image: url('../images/img-berryblitz.jpg');
-    background-size: cover;
-}
-#spiced.featured-single {
-    background-image: url('../images/img-spiced-rum.jpg');
-    background-size: cover;
-}
-#seasonal.featured-single {
-    background-image: url('../images/img-donut.jpg');
-    background-size: cover;
-}
-#myrtle.featured-single {
-    background-image: url('../images/img-donut.jpg');
-    background-size: cover;
-}
-#bedford.featured-single {
-    background-image: url('../images/img-bedford-bizarre.jpg');
-    background-size: cover;
-}
-.featured-title {
-    margin: 0;
 }
 
 footer {
